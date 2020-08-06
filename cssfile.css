@@ -110,7 +110,10 @@ h3 {
 }
 
 @media  (max-width:1000px) {
-  
+  .main-container{
+    text-align:center; 
+
+  }
   .mealplus {
     position: relative;
 
