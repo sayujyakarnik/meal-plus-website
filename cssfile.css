@@ -106,7 +106,7 @@ h3 {
   margin: 3%
 }
 
-@media(max-width:1000px) {
+@media screen (max-width:1000px) {
   .main-container {
     text-align: center;
   }
