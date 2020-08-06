@@ -5,6 +5,7 @@ body {
 
 .main-container {
   background-color: orange;
+  width: 100%;
 }
 
 .person{
@@ -53,7 +54,7 @@ body {
 }
 
 .mealplus {
-  position: absolute;
+  position: relative;
   height: 600px;
   transform: rotate(12deg);
 
@@ -115,7 +116,7 @@ h3 {
 
   .mealplus {
     position: relative;
-    transform: rotate(0deg);
+    
   }
 }
 
