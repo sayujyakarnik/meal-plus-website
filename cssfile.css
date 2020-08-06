@@ -1,0 +1,144 @@
+body {
+  font-family: Montserrat;
+}
+
+.main-container {
+  background-color: orange;
+}
+
+.person{
+  height: 100px;
+  width: 100px;
+}
+
+.navbar {
+  background-color: orange
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+.mealpluslogo {
+  height: 100px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.colapse {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: #7B1FA2;
+  color: #F3E5F5;
+}
+
+.rowt {
+  padding: 5% 3%
+}
+
+.main-h1 {
+  margin: 5%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.btn-download {
+  margin: 5%;
+}
+
+.mealplus {
+  position: absolute;
+  height: 600px;
+  transform: rotate(12.5deg)
+}
+
+#feature {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.easy {
+  color: orange;
+  font-size: 100px;
+  margin: 10px;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.testimonial {
+  background-color: lightblue;
+}
+
+.person {
+  height: 100px;
+  width: 100px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card-deck {
+  width: 1000px;
+}
+
+#pricing {
+  padding: 7% 7%;
+  text-align: center;
+}
+
+.mcard {
+  margin: 3%
+}
+
+@media(max-width:900px) {
+  .main-container {
+    text-align: center;
+  }
+
+  .mealplus {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.last-title {
+  font-family: Montserrat;
+
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%
+}
+
+.btn-Download-end {
+  margin: 0 100px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  color: #000;
+}
+
+.follow {
+  margin: 5px;
+}
+
+p {
+  color: grey;
+}
