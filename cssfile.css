@@ -2,7 +2,11 @@ body {
   font-family: Montserrat;
   width: 100%;
 }
+p{
 
+    color: grey;
+
+}
 .main-container {
   background-color: orange;
   width: 100%;
@@ -27,8 +31,11 @@ body {
 
 .navbar-brand {
   font-size: 2rem;
-}
 
+}
+.nav-br{
+  padding-left: 58px;
+}
 .colapse {
   font-size: 2rem;
 }
@@ -109,16 +116,7 @@ h3 {
   margin: 3%
 }
 
-@media  (max-width:1000px) {
-  .main-container{
-    text-align:center; 
 
-  }
-  .mealplus {
-    position: relative;
-
-  }
-}
 
 .last-title {
   font-family: Montserrat;
@@ -141,7 +139,18 @@ h3 {
 .follow {
   margin: 5px;
 }
-
-p {
-  color: grey;
+@media  (max-width:1000px) {
+  .main-container{
+    text-align:center;
+  }
+  .mealplus {
+    position: relative;
+  }
+  .follow{
+    font-size: 20px;
+    margin: 10px;
+  }
+  .nav-br{
+    padding-left: 0;
+  }
 }
