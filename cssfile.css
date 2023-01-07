@@ -63,7 +63,8 @@ p{
 .mealplus {
   position: relative;
   height: 600px;
-  transform: rotate(12deg);
+  transform: rotateX(12deg);
+  
 
 }
 
